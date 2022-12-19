@@ -13,6 +13,7 @@
 		7EC04A01294FF81D00F25EC2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EC049FF294FF81D00F25EC2 /* Main.storyboard */; };
 		7EC04A03294FF81E00F25EC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7EC04A02294FF81E00F25EC2 /* Assets.xcassets */; };
 		7EC04A06294FF81E00F25EC2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EC04A04294FF81E00F25EC2 /* LaunchScreen.storyboard */; };
+		7EC04A0E294FFCA400F25EC2 /* astralis.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 7EC04A0D294FFCA400F25EC2 /* astralis.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		7EC04A02294FF81E00F25EC2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7EC04A05294FF81E00F25EC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7EC04A07294FF81E00F25EC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7EC04A0D294FFCA400F25EC2 /* astralis.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = astralis.jpeg; path = ../../../../Pictures/astralis.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		7EC049F8294FF81D00F25EC2 /* ProjectLayout */ = {
 			isa = PBXGroup;
 			children = (
+				7EC04A0D294FFCA400F25EC2 /* astralis.jpeg */,
 				7EC049F9294FF81D00F25EC2 /* AppDelegate.swift */,
 				7EC049FB294FF81D00F25EC2 /* SceneDelegate.swift */,
 				7EC049FD294FF81D00F25EC2 /* ViewController.swift */,
@@ -125,6 +128,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7EC04A0E294FFCA400F25EC2 /* astralis.jpeg in Resources */,
 				7EC04A06294FF81E00F25EC2 /* LaunchScreen.storyboard in Resources */,
 				7EC04A03294FF81E00F25EC2 /* Assets.xcassets in Resources */,
 				7EC04A01294FF81D00F25EC2 /* Main.storyboard in Resources */,
@@ -293,8 +297,8 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -321,8 +325,8 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
